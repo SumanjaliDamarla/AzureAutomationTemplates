@@ -18,7 +18,7 @@
             "value": "southcentralus"
         },
         "serverName": {
-            "value": "sampledemo"
+            "value": "sampledemosqlserverdb"
         },
         "enableVA": {
             "value": false
