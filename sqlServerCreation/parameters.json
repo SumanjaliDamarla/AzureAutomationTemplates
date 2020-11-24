@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "allowAzureIps": {
+            "value": true
+        },
+        "administratorLogin": {
+            "value": "dsumanjali"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "enableADS": {
+            "value": false
+        },
+        "location": {
+            "value": "southcentralus"
+        },
+        "serverName": {
+            "value": "sampledemo"
+        },
+        "enableVA": {
+            "value": false
+        },
+        "useVAManagedIdentity": {
+            "value": false
+        },
+        "serverTags": {
+            "value": {
+                "sample": "practice_manually"
+            }
+        }
+    }
+}
